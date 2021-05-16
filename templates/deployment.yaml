@@ -1,0 +1,29 @@
+
+--- 
+apiVersion: apps/v1
+kind: Deployment
+metadata: 
+  creationTimestamp: ~
+  labels: 
+    app: moviesite-app
+  name: moviesite-app
+spec: 
+  replicas: 1
+  selector: 
+    matchLabels: 
+      app: moviesite-app
+  strategy: {}
+  template: 
+    metadata: 
+      creationTimestamp: ~
+      labels: 
+        app: moviesite-app
+    spec: 
+      containers: 
+        - 
+          image: "briansandiford/moviesiteapp_x86:0.0.1"
+          name: moviesiteapp-x86-6pdds
+          resources: {}
+status: {}
+
+
