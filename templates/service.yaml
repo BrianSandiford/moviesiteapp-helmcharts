@@ -3,15 +3,15 @@ kind: Service
 metadata:
   creationTimestamp: null
   labels:
-    app: moviesite-app
-  name: moviesite-app
+    app: "{{ .Values.name }}"
+  name: "{{ .Values.name }}"
 spec:
   ports:
   - port: 5000
     protocol: TCP
     targetPort: 5000
   selector:
-    app: moviesite-app
+    app: "{{ .Values.name }}"
   type: LoadBalancer
 status:
   loadBalancer: {}

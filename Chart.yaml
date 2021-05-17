@@ -3,7 +3,7 @@ name: moviesite-app
 description: A Helm chart for Kubernetes
 
 # A chart can be either an 'application' or a 'library' chart.
-#
+#test note
 # Application charts are a collection of templates that can be packaged into versioned archives
 # to be deployed.
 #
