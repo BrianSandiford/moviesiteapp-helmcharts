@@ -4,8 +4,8 @@
 
 deployment:
 
-  image: "briansandiford/moviesiteapp_x86:0.0.1"
+  image: "briansandiford/moviesiteapp_x86"
 
- # tag: "1.0.4"
+  tag: "0.0.1"
 
 name: moviesite-app
