@@ -20,7 +20,7 @@ spec:
     spec: 
       containers: 
         - 
-          image: {{ .Values.deployment.image }}
+          image: {{ .Values.deployment.image }}:{{ .Values.deployment.tag }}
           name: moviesiteapp-x86-6pdds
           resources: {}
 status: {}
