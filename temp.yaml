@@ -1,0 +1,12 @@
+# values.yaml
+
+
+
+deployment:
+
+  image: "briansandiford/moviesiteapp_x86"
+
+  tag: tagVersion
+
+name: moviesite-app
+
