@@ -6,7 +6,7 @@ deployment:
 
   image: "briansandiford/moviesiteapp_x86"
 
-  tag: jenkins-Docker-Build-Pipeline-23
+  tag: 24
 
 name: moviesite-app
 
