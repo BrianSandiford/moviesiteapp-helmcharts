@@ -6,7 +6,7 @@ deployment:
 
   image: "briansandiford/moviesiteapp_x86"
 
-  tag: 34
+  tag: 35
 
 name: moviesite-app
 
