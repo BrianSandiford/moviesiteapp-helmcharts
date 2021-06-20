@@ -4,9 +4,9 @@
 
 deployment:
 
-  image: "briansandiford/moviesiteapp_x86"
+  image: "655895384845.dkr.ecr.us-east-2.amazonaws.com/docker-private-repo"
 
-  tag: 21
+  tag: 12
 
 name: moviesite-app
 
