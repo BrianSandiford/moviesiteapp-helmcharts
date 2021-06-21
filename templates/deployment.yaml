@@ -18,9 +18,12 @@ spec:
       labels: 
         app: "{{ .Values.name }}"
     spec: 
+     imagePullSecrets:
+      - name: my-registry-key
       containers: 
         - 
           image: {{ .Values.deployment.image }}:{{ .Values.deployment.tag }}
+          imagePullPolicy: Always
           name: moviesiteapp-x86-6pdds
           resources: {}
 status: {}
