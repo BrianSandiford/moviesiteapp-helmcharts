@@ -18,7 +18,7 @@ spec:
       labels: 
         app: "{{ .Values.name }}"
     spec: 
-     imagePullSecrets:
+      imagePullSecrets:
       - name: my-registry-key
       containers: 
         - 
