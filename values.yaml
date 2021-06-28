@@ -6,7 +6,7 @@ deployment:
 
   image: "655895384845.dkr.ecr.us-east-2.amazonaws.com/docker-private-repo"
 
-  tag: 63
+  tag: 64
 
 name: moviesite-app
 
