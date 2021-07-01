@@ -23,6 +23,12 @@ spec:
           image: "{{ .Values.deployment.image }}:{{ .Values.deployment.tag }}"
           imagePullPolicy: Always
           name: moviesiteapp-x86-6pdds
+          env:
+            - name: SECRET_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: apikey
+                  key: apikey
           resources: {}
       imagePullSecrets: 
         - 
